@@ -78,20 +78,20 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "你最爱男朋友", "year": "2001", "date": "08-21"},
+        {"type": "*生日", "name": "你最爱男朋友", "year": "2001", "date": "04-04"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "05-15"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "自己", "year": "2001", "date": "04-04"},
+        {"type": "生日", "name": "自己", "year": "2001", "date": "08-21"},
         {"type": "节日", "name": "520天纪念日", "year": "2021", "date": "4-24"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "love_day", date: "2021-05-15"},
+//         // 结婚纪念日
+//         {"keyword": "marry_day", date: "2022-09-09"},
+//         // 退伍日
+//         {"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     {
